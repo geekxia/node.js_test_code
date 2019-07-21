@@ -1,0 +1,17 @@
+{
+    "user1": {
+        "id": 1,
+        "name": "geek1",
+        "age": 10        
+    },
+    "user2": {
+        "id": 2,
+        "name": "geek2",
+        "age": 20        
+    },
+    "user3": {
+        "id": 1,
+        "name": "geek3",
+        "age": 30        
+    }
+}

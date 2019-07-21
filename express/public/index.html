@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>静态资源文件-表单</title>
+</head>
+<body>
+
+    <form action="http://127.0.0.1:8989/test_get" method="GET">
+        <div>
+            <span>First Name：</span>
+            <input type="text" name="first_name">
+        </div>
+        <div>
+            <span>Last Name：</span>
+            <input type="text" name="last_name">
+        </div>
+        <div>
+            <input type="submit" value="GET 提交">
+        </div>
+    </form>
+
+    <form action="http://127.0.0.1:8989/test_post" method="POST">
+        <div>
+            <span>First Name：</span>
+            <input type="text" name="first_name">
+        </div>
+        <div>
+            <span>Last Name：</span>
+            <input type="text" name="last_name">
+        </div>
+        <div>
+            <input type="submit" value="POST 提交">
+        </div>
+    </form>
+    
+</body>
+</html>

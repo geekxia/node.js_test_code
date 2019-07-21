@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>文件上传</title>
+</head>
+<body>    
+    <h5>文件上传表单：</h5>
+    <form 
+        action="/file_upload" 
+        method="POST" 
+        enctype="multipart/form-data">
+        <div>
+            <span>请选择文件：</span>
+            <input type="file" name="file" size="100">
+        </div>
+        <div>
+            <input type="submit" value="文件上传">
+        </div>
+    </form>
+</body>
+</html>
